@@ -16,12 +16,12 @@
 
 
 [tb_hide_message_window  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="Curious_Night.mp3"  ]
 
 ;タイトル表示
 
 
 [bg  storage="ハイロータイトル.png"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="Curious_Night.mp3"  ]
 [tb_start_tyrano_code]
 [mask_off time=1000"]
 [_tb_end_tyrano_code]

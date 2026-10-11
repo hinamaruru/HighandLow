@@ -3,8 +3,8 @@
 [cm  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="怪しいラグタイム_2.mp3"  ]
 [bg  storage="背景.png"  time="0"  ]
-[tb_image_show  time="0"  storage="default/テーブル.png"  width="971"  height="647"  x=""  y=""  _clickable_img=""  name="img_2"  ]
-[tb_image_show  time="0"  storage="default/トランプ背面.png"  width="647"  height="432"  x="210"  y="278"  _clickable_img=""  name="img_3"  ]
+[tb_image_show  time="0"  storage="default/テーブル.png"  width="971"  height="647"  x=""  y=""  _clickable_img=""  name="img_3"  ]
+[tb_image_show  time="0"  storage="default/トランプ背面.png"  width="647"  height="432"  x="210"  y="278"  _clickable_img=""  name="img_4"  ]
 [chara_show  name="超学生"  time="1500"  wait="true"  storage="chara/1/顔1.png"  width="966"  height="645"  left="-15"  top=""  reflect="false"  ]
 [tb_show_message_window  ]
 [font  size="23"  color="0xffffff"  ]
@@ -133,8 +133,8 @@
 [tb_hide_message_window  ]
 *select_cards
 
-[button  storage="scene1.ks"  target="*choose_high"  graphic="HIGHボタン.png"  width="1011"  height="674"  x="-160"  y="23"  _clickable_img=""  name="img_23"  ]
-[button  storage="scene1.ks"  target="*choose_low"  graphic="LOWボタン.png"  width="1011"  height="674"  x="430"  y="23"  _clickable_img=""  name="img_24"  ]
+[button  storage="scene1.ks"  target="*choose_high"  graphic="HIGHボタン.jpg"  width="194"  height="65"  x="100"  y="190"  _clickable_img=""  name="img_37"  ]
+[button  storage="scene1.ks"  target="*choose_low"  graphic="LOWボタン.jpg"  width="194"  height="65"  x="650"  y="190"  _clickable_img=""  name="img_38"  ]
 [s  ]
 *choose_high
 
@@ -166,8 +166,8 @@
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[button  storage="scene1.ks"  target="*choose_keep"  graphic="そのままボタン.png"  width="1011"  height="674"  x="-160"  y="23"  _clickable_img=""  name="img_41"  ]
-[button  storage="scene1.ks"  target="*choose_change"  graphic="逆にする.png"  width="1011"  height="674"  x="430"  y="23"  _clickable_img=""  ]
+[button  storage="scene1.ks"  target="*choose_keep"  graphic="そのままボタン.jpg"  width="194"  height="65"  x="100"  y="190"  _clickable_img=""  name="img_55"  ]
+[button  storage="scene1.ks"  target="*choose_change"  graphic="逆にするボタン.jpg"  width="194"  height="65"  x="650"  y="190"  _clickable_img=""  ]
 [s  ]
 *choose_keep
 
